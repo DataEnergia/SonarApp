@@ -1,0 +1,170 @@
+{
+  "version": "0.1-mini",
+  "generated_at": "2026-05-13T02:37:31.409436+00:00",
+  "seed": 42,
+  "holdout_fraction": 0.2,
+  "samples": [
+    {
+      "audio_file": "legit_bank_001.wav",
+      "scenario_file": "legit_bank_001.yaml",
+      "language": "pt-BR",
+      "type": "legitimate",
+      "primary_signal": "authority_claim",
+      "all_signals": [
+        "authority_claim"
+      ],
+      "final_risk_level": "suspicious",
+      "duration_seconds": 12.0,
+      "risk_evolution": [
+        {
+          "t_start": 0,
+          "t_end": 12,
+          "expected_risk": "suspicious"
+        }
+      ],
+      "voices": {
+        "caller": "pt_male_2",
+        "user": "pt_female_2"
+      },
+      "split": "train"
+    },
+    {
+      "audio_file": "legit_clinic_001.wav",
+      "scenario_file": "legit_clinic_001.yaml",
+      "language": "en-US",
+      "type": "legitimate",
+      "primary_signal": null,
+      "all_signals": [],
+      "final_risk_level": "safe",
+      "duration_seconds": 10.0,
+      "risk_evolution": [
+        {
+          "t_start": 0,
+          "t_end": 10,
+          "expected_risk": "safe"
+        }
+      ],
+      "voices": {
+        "caller": "en_female_2",
+        "user": "en_male_1"
+      },
+      "split": "train"
+    },
+    {
+      "audio_file": "legit_family_001.wav",
+      "scenario_file": "legit_family_001.yaml",
+      "language": "pt-BR",
+      "type": "legitimate",
+      "primary_signal": null,
+      "all_signals": [],
+      "final_risk_level": "safe",
+      "duration_seconds": 10.0,
+      "risk_evolution": [
+        {
+          "t_start": 0,
+          "t_end": 10,
+          "expected_risk": "safe"
+        }
+      ],
+      "voices": {
+        "caller": "pt_female_3",
+        "user": "pt_female_1"
+      },
+      "split": "train"
+    },
+    {
+      "audio_file": "scam_authority_001.wav",
+      "scenario_file": "scam_authority_001.yaml",
+      "language": "pt-BR",
+      "type": "scam",
+      "primary_signal": "authority_claim",
+      "all_signals": [
+        "authority_claim",
+        "urgency_pressure",
+        "personal_data_request"
+      ],
+      "final_risk_level": "danger",
+      "duration_seconds": 12.0,
+      "risk_evolution": [
+        {
+          "t_start": 0,
+          "t_end": 4,
+          "expected_risk": "suspicious"
+        },
+        {
+          "t_start": 4,
+          "t_end": 12,
+          "expected_risk": "danger"
+        }
+      ],
+      "voices": {
+        "scammer": "pt_male_1",
+        "victim": "pt_female_1"
+      },
+      "split": "holdout"
+    },
+    {
+      "audio_file": "scam_family_001.wav",
+      "scenario_file": "scam_family_001.yaml",
+      "language": "pt-BR",
+      "type": "scam",
+      "primary_signal": "family_emergency_claim",
+      "all_signals": [
+        "family_emergency_claim",
+        "emotional_manipulation",
+        "financial_request",
+        "secret_keeping_request"
+      ],
+      "final_risk_level": "danger",
+      "duration_seconds": 12.0,
+      "risk_evolution": [
+        {
+          "t_start": 0,
+          "t_end": 5,
+          "expected_risk": "suspicious"
+        },
+        {
+          "t_start": 5,
+          "t_end": 12,
+          "expected_risk": "danger"
+        }
+      ],
+      "voices": {
+        "scammer": "pt_female_2",
+        "victim": "pt_male_1"
+      },
+      "split": "train"
+    },
+    {
+      "audio_file": "scam_remote_access_001.wav",
+      "scenario_file": "scam_remote_access_001.yaml",
+      "language": "en-US",
+      "type": "scam",
+      "primary_signal": "remote_access_request",
+      "all_signals": [
+        "authority_claim",
+        "remote_access_request",
+        "urgency_pressure"
+      ],
+      "final_risk_level": "danger",
+      "duration_seconds": 12.0,
+      "risk_evolution": [
+        {
+          "t_start": 0,
+          "t_end": 5,
+          "expected_risk": "suspicious"
+        },
+        {
+          "t_start": 5,
+          "t_end": 12,
+          "expected_risk": "danger"
+        }
+      ],
+      "voices": {
+        "scammer": "en_male_1",
+        "victim": "en_female_1"
+      },
+      "split": "train"
+    }
+  ]
+}

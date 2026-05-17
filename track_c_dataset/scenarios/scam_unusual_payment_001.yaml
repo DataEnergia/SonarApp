@@ -1,0 +1,25 @@
+id: scam_unusual_payment_001
+type: scam
+language: en-US
+duration_target_seconds: 18
+primary_signal: unusual_payment_method
+all_signals:
+  - authority_claim
+  - urgency_pressure
+  - unusual_payment_method
+final_risk_level: danger
+risk_evolution:
+  - {t_start: 0, t_end: 8, expected_risk: suspicious}
+  - {t_start: 8, t_end: 18, expected_risk: danger}
+voices:
+  scammer: en_male_2
+  victim: en_female_1
+transcript: |
+  [scammer, official]
+  This is the tax resolution department. Your account has a serious pending issue and it must be resolved today.
+
+  [victim, cautious]
+  Can I pay through the government website?
+
+  [scammer, urgent]
+  No, the online portal is locked. Buy two gift cards from a nearby store and read the numbers to me so I can clear the balance.

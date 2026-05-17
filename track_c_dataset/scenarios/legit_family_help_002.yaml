@@ -1,0 +1,21 @@
+id: legit_family_help_002
+type: legitimate
+language: pt-BR
+duration_target_seconds: 15
+primary_signal: null
+all_signals: []
+final_risk_level: safe
+risk_evolution:
+  - {t_start: 0, t_end: 15, expected_risk: safe}
+voices:
+  caller: pt_male_1
+  user: pt_female_2
+transcript: |
+  [caller, calm]
+  Vo, sou eu. Passei na farmacia e comprei o remedio que a senhora pediu.
+
+  [user]
+  Obrigada. Quanto ficou?
+
+  [caller]
+  Depois a gente ve isso pessoalmente. Vou deixar a nota na sacola e passo ai com calma.

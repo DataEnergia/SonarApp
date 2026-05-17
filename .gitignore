@@ -1,0 +1,73 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Android / Gradle / Kotlin
+.gradle/
+build/
+local.properties
+*.iml
+.idea/
+.cxx/
+captures/
+
+# Models (NEVER commit — download via scripts)
+*.task
+*.gguf
+*.bin
+*.onnx
+*.tflite
+*.pt
+*.safetensors
+
+# Synthetic audio dataset — audio_tts WAVs ARE committed (dataset evidence for demo)
+# Exclude only the older audio_dataset path if it exists
+track_c_dataset/audio_dataset/*.wav
+track_c_dataset/audio_dataset/*.mp3
+
+# Eval run JSONs except the latest summary
+track_d_eval/reports/eval_run_*.json
+track_d_eval/reports/metrics_*.json
+
+# User recordings and personal data — never commit
+track_a_desktop/inputs/user_recordings/
+track_a_desktop/feedback/
+track_a_desktop/outputs/user_tests/
+
+# Claude Code project files (agent state, not project code)
+.claude/
+
+# Old archive
+senti.zip
+
+# OS noise
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Editor / IDE
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Local secrets (none expected, but guard anyway)
+.env
+.env.local
+*.pem
+*.key

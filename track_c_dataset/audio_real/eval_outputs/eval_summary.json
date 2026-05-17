@@ -1,0 +1,272 @@
+[
+  {
+    "file": "scam_banco_pix_001.wav.ogg",
+    "type": "scam",
+    "expected": "danger",
+    "language": "pt-BR",
+    "predicted": "danger",
+    "correct": true,
+    "elapsed_s": 57.8
+  },
+  {
+    "file": "scam_filho_acidente_002.wav.ogg",
+    "type": "scam",
+    "expected": "danger",
+    "language": "pt-BR",
+    "predicted": "danger",
+    "correct": true,
+    "elapsed_s": 39.7
+  },
+  {
+    "file": "scam_receita_federal_003.wav.ogg",
+    "type": "scam",
+    "expected": "danger",
+    "language": "pt-BR",
+    "predicted": "danger",
+    "correct": true,
+    "elapsed_s": 36.0
+  },
+  {
+    "file": "scam_suporte_remoto_004.wav.ogg",
+    "type": "scam",
+    "expected": "danger",
+    "language": "pt-BR",
+    "predicted": "danger",
+    "correct": true,
+    "elapsed_s": 34.7
+  },
+  {
+    "file": "scam_cartao_clonado_005.wav.ogg",
+    "type": "scam",
+    "expected": "danger",
+    "language": "pt-BR",
+    "predicted": "danger",
+    "correct": true,
+    "elapsed_s": 23.3
+  },
+  {
+    "file": "scam_whatsapp_empresa_006.wav.ogg",
+    "type": "scam",
+    "expected": "danger",
+    "language": "pt-BR",
+    "predicted": "danger",
+    "correct": true,
+    "elapsed_s": 38.7
+  },
+  {
+    "file": "scam_policia_multa_007.wav.ogg",
+    "type": "scam",
+    "expected": "danger",
+    "language": "pt-BR",
+    "predicted": "danger",
+    "correct": true,
+    "elapsed_s": 31.2
+  },
+  {
+    "file": "scam_bitcoin_008.wav.ogg",
+    "type": "scam",
+    "expected": "danger",
+    "language": "pt-BR",
+    "predicted": "danger",
+    "correct": true,
+    "elapsed_s": 31.5
+  },
+  {
+    "file": "scam_inss_009.wav.ogg",
+    "type": "scam",
+    "expected": "danger",
+    "language": "pt-BR",
+    "predicted": "danger",
+    "correct": true,
+    "elapsed_s": 26.3
+  },
+  {
+    "file": "scam_codigo_sms_010.wav.ogg",
+    "type": "scam",
+    "expected": "danger",
+    "language": "pt-BR",
+    "predicted": "danger",
+    "correct": true,
+    "elapsed_s": 13.7
+  },
+  {
+    "file": "scam_sequestro_011.wav.ogg",
+    "type": "scam",
+    "expected": "danger",
+    "language": "pt-BR",
+    "predicted": "danger",
+    "correct": true,
+    "elapsed_s": 23.8
+  },
+  {
+    "file": "scam_beneficio_cancelado_012.wav.ogg",
+    "type": "scam",
+    "expected": "danger",
+    "language": "pt-BR",
+    "predicted": "danger",
+    "correct": true,
+    "elapsed_s": 27.4
+  },
+  {
+    "file": "scam_marketplace_013.wav.ogg",
+    "type": "scam",
+    "expected": "danger",
+    "language": "pt-BR",
+    "predicted": "danger",
+    "correct": true,
+    "elapsed_s": 26.2
+  },
+  {
+    "file": "scam_giftcard_014.wav.ogg",
+    "type": "scam",
+    "expected": "danger",
+    "language": "pt-BR",
+    "predicted": "danger",
+    "correct": true,
+    "elapsed_s": 26.6
+  },
+  {
+    "file": "scam_falso_banco_whatsapp_015.wav.ogg",
+    "type": "scam",
+    "expected": "danger",
+    "language": "pt-BR",
+    "predicted": "danger",
+    "correct": true,
+    "elapsed_s": 28.1
+  },
+  {
+    "file": "legit_clinica_016.wav.ogg",
+    "type": "legitimate",
+    "expected": "safe",
+    "language": "pt-BR",
+    "predicted": "safe",
+    "correct": true,
+    "elapsed_s": 26.8
+  },
+  {
+    "file": "legit_entrega_017.wav.ogg",
+    "type": "legitimate",
+    "expected": "safe",
+    "language": "pt-BR",
+    "predicted": "safe",
+    "correct": true,
+    "elapsed_s": 21.9
+  },
+  {
+    "file": "legit_banco_alerta_018.wav.ogg",
+    "type": "legitimate",
+    "expected": "suspicious",
+    "language": "pt-BR",
+    "predicted": "suspicious",
+    "correct": true,
+    "elapsed_s": 39.5
+  },
+  {
+    "file": "legit_escola_019.wav.ogg",
+    "type": "legitimate",
+    "expected": "safe",
+    "language": "pt-BR",
+    "predicted": "safe",
+    "correct": true,
+    "elapsed_s": 13.1
+  },
+  {
+    "file": "legit_suporte_internet_020.wav.ogg",
+    "type": "legitimate",
+    "expected": "safe",
+    "language": "pt-BR",
+    "predicted": "safe",
+    "correct": true,
+    "elapsed_s": 24.2
+  },
+  {
+    "file": "legit_hotel_021.wav.ogg",
+    "type": "legitimate",
+    "expected": "safe",
+    "language": "pt-BR",
+    "predicted": "safe",
+    "correct": true,
+    "elapsed_s": 14.5
+  },
+  {
+    "file": "legit_farmacia_022.wav.ogg",
+    "type": "legitimate",
+    "expected": "safe",
+    "language": "pt-BR",
+    "predicted": "safe",
+    "correct": true,
+    "elapsed_s": 12.7
+  },
+  {
+    "file": "legit_condominio_023.wav.ogg",
+    "type": "legitimate",
+    "expected": "safe",
+    "language": "pt-BR",
+    "predicted": "safe",
+    "correct": true,
+    "elapsed_s": 14.5
+  },
+  {
+    "file": "legit_empresa_rh_024.wav.ogg",
+    "type": "legitimate",
+    "expected": "safe",
+    "language": "pt-BR",
+    "predicted": "suspicious",
+    "correct": true,
+    "elapsed_s": 13.6
+  },
+  {
+    "file": "legit_amigo_025.wav.ogg",
+    "type": "legitimate",
+    "expected": "safe",
+    "language": "pt-BR",
+    "predicted": "safe",
+    "correct": true,
+    "elapsed_s": 14.2
+  },
+  {
+    "file": "legit_banco_cartao_026.wav.ogg",
+    "type": "legitimate",
+    "expected": "suspicious",
+    "language": "pt-BR",
+    "predicted": "safe",
+    "correct": true,
+    "elapsed_s": 12.9
+  },
+  {
+    "file": "legit_laboratorio_027.wav.ogg",
+    "type": "legitimate",
+    "expected": "safe",
+    "language": "pt-BR",
+    "predicted": "suspicious",
+    "correct": true,
+    "elapsed_s": 25.9
+  },
+  {
+    "file": "legit_prefeitura_028.wav.ogg",
+    "type": "legitimate",
+    "expected": "suspicious",
+    "language": "pt-BR",
+    "predicted": "safe",
+    "correct": true,
+    "elapsed_s": 15.9
+  },
+  {
+    "file": "legit_oficina_029.wav.ogg",
+    "type": "legitimate",
+    "expected": "safe",
+    "language": "pt-BR",
+    "predicted": "safe",
+    "correct": true,
+    "elapsed_s": 12.0
+  },
+  {
+    "file": "legit_streaming_030.wav.ogg",
+    "type": "legitimate",
+    "expected": "safe",
+    "language": "pt-BR",
+    "predicted": "safe",
+    "correct": true,
+    "elapsed_s": 21.9
+  }
+]

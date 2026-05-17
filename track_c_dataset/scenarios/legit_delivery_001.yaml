@@ -1,0 +1,21 @@
+id: legit_delivery_001
+type: legitimate
+language: en-US
+duration_target_seconds: 13
+primary_signal: null
+all_signals: []
+final_risk_level: safe
+risk_evolution:
+  - {t_start: 0, t_end: 13, expected_risk: safe}
+voices:
+  caller: en_male_1
+  user: en_female_1
+transcript: |
+  [caller, neutral]
+  Hello, this is the delivery desk. Your package is at the front entrance, but the gate code did not work.
+
+  [user]
+  I can come downstairs in five minutes.
+
+  [caller]
+  That is fine. I will wait by the main door and will not ask for payment or account details.

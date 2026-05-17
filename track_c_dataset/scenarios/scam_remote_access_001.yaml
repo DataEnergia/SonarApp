@@ -1,0 +1,25 @@
+id: scam_remote_access_001
+type: scam
+language: en-US
+duration_target_seconds: 12
+primary_signal: remote_access_request
+all_signals:
+  - authority_claim
+  - remote_access_request
+  - urgency_pressure
+final_risk_level: danger
+risk_evolution:
+  - {t_start: 0, t_end: 5, expected_risk: suspicious}
+  - {t_start: 5, t_end: 12, expected_risk: danger}
+voices:
+  scammer: en_male_1
+  victim: en_female_1
+transcript: |
+  [scammer, calm]
+  This is technical support from your bank. We detected unusual access to your account and need to secure your computer immediately.
+
+  [victim, confused]
+  I do not know much about computers.
+
+  [scammer, direct]
+  Please install AnyDesk now and read me the access number so I can remove the threat before your account is locked.

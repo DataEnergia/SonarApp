@@ -1,0 +1,21 @@
+id: legit_clinic_001
+type: legitimate
+language: en-US
+duration_target_seconds: 10
+primary_signal: null
+all_signals: []
+final_risk_level: safe
+risk_evolution:
+  - {t_start: 0, t_end: 10, expected_risk: safe}
+voices:
+  caller: en_female_2
+  user: en_male_1
+transcript: |
+  [caller, polite]
+  Hello, this is the clinic confirming your appointment for Thursday at ten in the morning.
+
+  [user]
+  Thank you. Do I need to bring anything?
+
+  [caller]
+  Just your ID and insurance card. We will not ask for payment information over the phone.

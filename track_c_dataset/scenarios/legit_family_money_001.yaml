@@ -1,0 +1,21 @@
+id: legit_family_money_001
+type: legitimate
+language: pt-BR
+duration_target_seconds: 15
+primary_signal: null
+all_signals: []
+final_risk_level: safe
+risk_evolution:
+  - {t_start: 0, t_end: 15, expected_risk: safe}
+voices:
+  caller: pt_male_1
+  user: pt_female_1
+transcript: |
+  [caller, normal]
+  Mae, sou eu. Estou no mercado e esqueci a sacola retornavel. A senhora consegue deixar uma na portaria para eu pegar?
+
+  [user]
+  Posso sim, mas vou confirmar pelo nosso grupo da familia antes.
+
+  [caller]
+  Claro, manda mensagem la. Sem pressa, se nao der eu pego outro dia.

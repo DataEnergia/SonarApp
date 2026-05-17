@@ -1,0 +1,25 @@
+id: scam_bank_pix_002
+type: scam
+language: pt-BR
+duration_target_seconds: 18
+primary_signal: financial_request
+all_signals:
+  - authority_claim
+  - urgency_pressure
+  - financial_request
+final_risk_level: danger
+risk_evolution:
+  - {t_start: 0, t_end: 6, expected_risk: suspicious}
+  - {t_start: 6, t_end: 18, expected_risk: danger}
+voices:
+  scammer: pt_male_2
+  victim: pt_female_1
+transcript: |
+  [scammer, urgent]
+  Dona Ana, aqui e da seguranca do banco. Sua conta sera bloqueada em poucos minutos por tentativa de fraude.
+
+  [victim, worried]
+  O que eu preciso fazer?
+
+  [scammer]
+  Faca agora um Pix de teste para a chave que vou informar. O valor volta automaticamente quando o sistema validar.

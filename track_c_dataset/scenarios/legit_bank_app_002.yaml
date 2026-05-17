@@ -1,0 +1,22 @@
+id: legit_bank_app_002
+type: legitimate
+language: pt-BR
+duration_target_seconds: 16
+primary_signal: authority_claim
+all_signals:
+  - authority_claim
+final_risk_level: suspicious
+risk_evolution:
+  - {t_start: 0, t_end: 16, expected_risk: suspicious}
+voices:
+  caller: pt_female_2
+  user: pt_male_1
+transcript: |
+  [caller, professional]
+  Senhor Antonio, aqui e do banco. Estamos avisando sobre uma compra incomum no cartao.
+
+  [user]
+  O que devo fazer?
+
+  [caller]
+  Por seguranca, nao me diga senha nem codigo. Abra o aplicativo oficial ou ligue para o numero do verso do cartao.

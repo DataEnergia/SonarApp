@@ -1,0 +1,186 @@
+{
+  "version": "1.0-real",
+  "description": "Real human recordings for eval — 15 scam + 15 legitimate",
+  "samples": [
+    {
+      "audio_file": "scam_001.wav",
+      "language": "pt-BR",
+      "type": "scam",
+      "description": "Descreva brevemente o cenário aqui"
+    },
+    {
+      "audio_file": "scam_002.wav",
+      "language": "pt-BR",
+      "type": "scam",
+      "description": ""
+    },
+    {
+      "audio_file": "scam_003.wav",
+      "language": "pt-BR",
+      "type": "scam",
+      "description": ""
+    },
+    {
+      "audio_file": "scam_004.wav",
+      "language": "pt-BR",
+      "type": "scam",
+      "description": ""
+    },
+    {
+      "audio_file": "scam_005.wav",
+      "language": "pt-BR",
+      "type": "scam",
+      "description": ""
+    },
+    {
+      "audio_file": "scam_006.wav",
+      "language": "pt-BR",
+      "type": "scam",
+      "description": ""
+    },
+    {
+      "audio_file": "scam_007.wav",
+      "language": "pt-BR",
+      "type": "scam",
+      "description": ""
+    },
+    {
+      "audio_file": "scam_008.wav",
+      "language": "pt-BR",
+      "type": "scam",
+      "description": ""
+    },
+    {
+      "audio_file": "scam_009.wav",
+      "language": "pt-BR",
+      "type": "scam",
+      "description": ""
+    },
+    {
+      "audio_file": "scam_010.wav",
+      "language": "pt-BR",
+      "type": "scam",
+      "description": ""
+    },
+    {
+      "audio_file": "scam_011.wav",
+      "language": "pt-BR",
+      "type": "scam",
+      "description": ""
+    },
+    {
+      "audio_file": "scam_012.wav",
+      "language": "pt-BR",
+      "type": "scam",
+      "description": ""
+    },
+    {
+      "audio_file": "scam_013.wav",
+      "language": "pt-BR",
+      "type": "scam",
+      "description": ""
+    },
+    {
+      "audio_file": "scam_014.wav",
+      "language": "pt-BR",
+      "type": "scam",
+      "description": ""
+    },
+    {
+      "audio_file": "scam_015.wav",
+      "language": "pt-BR",
+      "type": "scam",
+      "description": ""
+    },
+    {
+      "audio_file": "legit_001.wav",
+      "language": "pt-BR",
+      "type": "legitimate",
+      "description": ""
+    },
+    {
+      "audio_file": "legit_002.wav",
+      "language": "pt-BR",
+      "type": "legitimate",
+      "description": ""
+    },
+    {
+      "audio_file": "legit_003.wav",
+      "language": "pt-BR",
+      "type": "legitimate",
+      "description": ""
+    },
+    {
+      "audio_file": "legit_004.wav",
+      "language": "pt-BR",
+      "type": "legitimate",
+      "description": ""
+    },
+    {
+      "audio_file": "legit_005.wav",
+      "language": "pt-BR",
+      "type": "legitimate",
+      "description": ""
+    },
+    {
+      "audio_file": "legit_006.wav",
+      "language": "pt-BR",
+      "type": "legitimate",
+      "description": ""
+    },
+    {
+      "audio_file": "legit_007.wav",
+      "language": "pt-BR",
+      "type": "legitimate",
+      "description": ""
+    },
+    {
+      "audio_file": "legit_008.wav",
+      "language": "pt-BR",
+      "type": "legitimate",
+      "description": ""
+    },
+    {
+      "audio_file": "legit_009.wav",
+      "language": "pt-BR",
+      "type": "legitimate",
+      "description": ""
+    },
+    {
+      "audio_file": "legit_010.wav",
+      "language": "pt-BR",
+      "type": "legitimate",
+      "description": ""
+    },
+    {
+      "audio_file": "legit_011.wav",
+      "language": "pt-BR",
+      "type": "legitimate",
+      "description": ""
+    },
+    {
+      "audio_file": "legit_012.wav",
+      "language": "pt-BR",
+      "type": "legitimate",
+      "description": ""
+    },
+    {
+      "audio_file": "legit_013.wav",
+      "language": "pt-BR",
+      "type": "legitimate",
+      "description": ""
+    },
+    {
+      "audio_file": "legit_014.wav",
+      "language": "pt-BR",
+      "type": "legitimate",
+      "description": ""
+    },
+    {
+      "audio_file": "legit_015.wav",
+      "language": "pt-BR",
+      "type": "legitimate",
+      "description": ""
+    }
+  ]
+}

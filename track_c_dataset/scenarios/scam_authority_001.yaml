@@ -1,0 +1,25 @@
+id: scam_authority_001
+type: scam
+language: pt-BR
+duration_target_seconds: 12
+primary_signal: authority_claim
+all_signals:
+  - authority_claim
+  - urgency_pressure
+  - personal_data_request
+final_risk_level: danger
+risk_evolution:
+  - {t_start: 0, t_end: 4, expected_risk: suspicious}
+  - {t_start: 4, t_end: 12, expected_risk: danger}
+voices:
+  scammer: pt_male_1
+  victim: pt_female_1
+transcript: |
+  [scammer, professional]
+  Senhora Maria, aqui e o setor de seguranca do seu banco. Apareceu uma tentativa de compra agora e precisamos confirmar sua identidade com urgencia.
+
+  [victim, hesitant]
+  Mas eu nao comprei nada hoje.
+
+  [scammer, firm]
+  Entao preciso que a senhora leia o codigo que chegou por SMS para bloquear a transacao antes que o dinheiro saia da conta.

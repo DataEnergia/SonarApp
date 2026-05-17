@@ -1,0 +1,26 @@
+id: scam_family_001
+type: scam
+language: pt-BR
+duration_target_seconds: 12
+primary_signal: family_emergency_claim
+all_signals:
+  - family_emergency_claim
+  - emotional_manipulation
+  - financial_request
+  - secret_keeping_request
+final_risk_level: danger
+risk_evolution:
+  - {t_start: 0, t_end: 5, expected_risk: suspicious}
+  - {t_start: 5, t_end: 12, expected_risk: danger}
+voices:
+  scammer: pt_female_2
+  victim: pt_male_1
+transcript: |
+  [scammer, crying]
+  Vo, sou eu. Bati o carro e tem um homem aqui dizendo que chama a policia se eu nao pagar o conserto agora.
+
+  [victim, worried]
+  Calma, que aconteceu?
+
+  [scammer, urgent]
+  Nao conta para a minha mae ainda. Faz um Pix de dois mil para resolver isso e depois eu explico tudo.

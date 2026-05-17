@@ -1,0 +1,251 @@
+# Senti — Scam Signal Taxonomy
+# Canonical definition. Source of truth for classifier prompts,
+# UI strings, and decision engine rules across all tracks.
+#
+# Schema version: 1.0
+# License: CC-BY 4.0
+
+version: "1.0"
+description: >
+  Ten known patterns of social-engineering used in scam phone calls
+  targeting elderly users. Each signal has a severity that drives the
+  decision engine's risk-level computation.
+
+signals:
+  urgency_pressure:
+    name_pt: "Pressão temporal"
+    name_en: "Time pressure"
+    name_es: "Presión temporal"
+    description: "Cria urgência artificial para impedir reflexão"
+    severity: medium
+    examples_pt:
+      - "precisa decidir agora"
+      - "tem só 10 minutos"
+      - "depois não dá mais"
+      - "se não fizer agora vai perder tudo"
+    examples_en:
+      - "you must decide right now"
+      - "this offer expires in 10 minutes"
+      - "act immediately or lose access"
+    examples_es:
+      - "tiene que decidir ahora mismo"
+      - "solo tiene 10 minutos"
+      - "si no actúa ahora va a perder todo"
+      - "es urgente, no puede esperar"
+
+  authority_claim:
+    name_pt: "Falsa autoridade"
+    name_en: "False authority"
+    name_es: "Falsa autoridad"
+    description: "Alega ser banco, polícia, governo, Receita, INSS"
+    severity: high
+    examples_pt:
+      - "aqui é da Caixa Econômica"
+      - "Polícia Federal"
+      - "Departamento de Segurança do Banco"
+      - "Receita Federal"
+      - "INSS Central"
+    examples_en:
+      - "this is the IRS"
+      - "Bank of America security department"
+      - "this is the Social Security Administration"
+    examples_es:
+      - "le habla el departamento de seguridad del banco"
+      - "somos del gobierno"
+      - "llamamos del ANSES"
+      - "soy agente de la Policía Federal"
+      - "esto es el SAT"
+
+  isolation_request:
+    name_pt: "Pedido de isolamento"
+    name_en: "Isolation request"
+    name_es: "Pedido de aislamiento"
+    description: "Pede para não contar a familiares ou não desligar"
+    severity: high
+    examples_pt:
+      - "não fale com sua família"
+      - "isso é confidencial"
+      - "não pode contar pra ninguém"
+      - "não desligue de jeito nenhum"
+    examples_en:
+      - "do not tell anyone"
+      - "this is confidential"
+      - "do not hang up"
+    examples_es:
+      - "no le cuente a su familia"
+      - "esto es confidencial"
+      - "no puede contárselo a nadie"
+      - "no cuelgue bajo ningún motivo"
+
+  financial_request:
+    name_pt: "Pedido financeiro"
+    name_en: "Financial request"
+    name_es: "Solicitud financiera"
+    description: "Pix, transferência, dados bancários, número de cartão"
+    severity: critical
+    examples_pt:
+      - "faz um Pix"
+      - "transfere pra essa conta"
+      - "qual o número do seu cartão"
+      - "código de segurança do cartão"
+    examples_en:
+      - "send a wire transfer"
+      - "give me your credit card number"
+      - "what's the security code on the back"
+    examples_es:
+      - "haga una transferencia a esta cuenta"
+      - "cuál es el número de su tarjeta"
+      - "envíe dinero por Western Union"
+      - "deposite en efectivo ahora"
+
+  personal_data_request:
+    name_pt: "Pedido de dados pessoais"
+    name_en: "Personal data request"
+    name_es: "Solicitud de datos personales"
+    description: "Senha, CPF, código de aplicativo, OTP, dados de identidade"
+    severity: critical
+    examples_pt:
+      - "qual seu CPF"
+      - "o código que chegou por SMS"
+      - "sua senha do banco"
+      - "número do RG e data de nascimento"
+    examples_en:
+      - "what is your Social Security Number"
+      - "the verification code we just sent"
+      - "your banking password"
+      - "mother's maiden name"
+    examples_es:
+      - "cuál es su CUIL o DNI"
+      - "el código que le llegó por SMS"
+      - "su contraseña del banco"
+      - "dígame su número de CURP"
+
+  emotional_manipulation:
+    name_pt: "Manipulação emocional"
+    name_en: "Emotional manipulation"
+    name_es: "Manipulación emocional"
+    description: "Medo, pena, urgência emocional, ameaça velada"
+    severity: medium
+    examples_pt:
+      - "está em perigo"
+      - "vai perder tudo"
+      - "imagine se acontecer com seu neto"
+      - "sua conta foi invadida"
+    examples_en:
+      - "you are in danger"
+      - "you will lose everything"
+      - "imagine if this happened to your grandchild"
+    examples_es:
+      - "está en peligro"
+      - "va a perder todo su dinero"
+      - "su cuenta fue hackeada"
+      - "imagínese si le pasa algo a su nieto"
+
+  family_emergency_claim:
+    name_pt: "Falsa emergência familiar"
+    name_en: "Family emergency claim"
+    name_es: "Falsa emergencia familiar"
+    description: "Falso filho/neto preso, acidentado, sequestrado"
+    severity: critical
+    examples_pt:
+      - "seu neto foi preso"
+      - "sua filha sofreu acidente"
+      - "estou na delegacia precisando de fiança"
+      - "fui sequestrado, manda dinheiro"
+    examples_en:
+      - "your grandson is in jail"
+      - "your daughter was in an accident"
+      - "I need bail money urgently"
+    examples_es:
+      - "su nieto está preso"
+      - "su hijo tuvo un accidente"
+      - "estoy en la comisaría y necesito fianza"
+      - "me secuestraron, mande dinero"
+
+  unusual_payment_method:
+    name_pt: "Método de pagamento incomum"
+    name_en: "Unusual payment method"
+    name_es: "Método de pago inusual"
+    description: "Gift card, cripto, conta de terceiros, depósito em boca de caixa"
+    severity: critical
+    examples_pt:
+      - "compra um cartão presente"
+      - "deposita em Bitcoin"
+      - "essa conta é de um amigo meu"
+      - "vai no caixa e deposita em dinheiro"
+    examples_en:
+      - "buy gift cards"
+      - "send Bitcoin"
+      - "deposit at a Bitcoin ATM"
+      - "wire it through Western Union"
+    examples_es:
+      - "compre una tarjeta de regalo"
+      - "envíe Bitcoin"
+      - "deposite en un cajero de criptomonedas"
+      - "esta cuenta es de un conocido mío"
+
+  remote_access_request:
+    name_pt: "Pedido de acesso remoto"
+    name_en: "Remote access request"
+    name_es: "Solicitud de acceso remoto"
+    description: "Instalar AnyDesk, TeamViewer, app desconhecido"
+    severity: critical
+    examples_pt:
+      - "instala esse aplicativo"
+      - "vou te ajudar pelo seu celular"
+      - "baixa o AnyDesk"
+      - "permite acesso ao seu computador"
+    examples_en:
+      - "install AnyDesk"
+      - "let me access your computer remotely"
+      - "download this app and give me the code"
+    examples_es:
+      - "instale esta aplicación"
+      - "le voy a ayudar desde su teléfono"
+      - "descargue AnyDesk"
+      - "permítame acceder a su computadora"
+
+  secret_keeping_request:
+    name_pt: "Pedido para manter segredo"
+    name_en: "Secret keeping request"
+    name_es: "Pedido de secreto"
+    description: "Distinto de isolation_request — pede silêncio após pedido financeiro"
+    severity: high
+    examples_pt:
+      - "depois não conte que conversamos"
+      - "apague a ligação"
+      - "não fale com o gerente do banco"
+    examples_en:
+      - "don't mention this to anyone"
+      - "delete the call log after"
+      - "don't tell your bank manager"
+    examples_es:
+      - "no le cuente a nadie que hablamos"
+      - "borre el registro de llamadas"
+      - "no le diga nada al gerente del banco"
+
+# Decision engine rules — referenced from CONTRACTS.md section 2.2
+risk_rules:
+  danger:
+    description: "Triggers immediate red alert"
+    triggers:
+      - "any signal with severity=critical"
+      - "two or more signals with severity=high"
+  suspicious:
+    description: "Triggers yellow warning"
+    triggers:
+      - "exactly one signal with severity=high"
+      - "two or more signals with severity=medium"
+  safe:
+    description: "No alert"
+    triggers:
+      - "zero signals or one isolated medium-severity signal"
+
+# Configuration constants
+config:
+  rolling_window_segments: 3
+  segment_duration_seconds: 5
+  segment_overlap_seconds: 1
+  confidence_threshold_for_e4b_fallback: 0.7
+  e4b_fallback_max_uses_per_call: 3
+  monotonic_escalation: true

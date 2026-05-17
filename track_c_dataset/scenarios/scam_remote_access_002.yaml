@@ -1,0 +1,25 @@
+id: scam_remote_access_002
+type: scam
+language: pt-BR
+duration_target_seconds: 18
+primary_signal: remote_access_request
+all_signals:
+  - authority_claim
+  - urgency_pressure
+  - remote_access_request
+final_risk_level: danger
+risk_evolution:
+  - {t_start: 0, t_end: 5, expected_risk: suspicious}
+  - {t_start: 5, t_end: 18, expected_risk: danger}
+voices:
+  scammer: pt_female_2
+  victim: pt_male_1
+transcript: |
+  [scammer, professional]
+  Senhor Paulo, sou do suporte do banco. Seu aplicativo esta comprometido e precisamos agir agora.
+
+  [victim]
+  Posso ir ate a agencia?
+
+  [scammer, urgent]
+  Nao da tempo. Instale o AnyDesk no celular e me passe o codigo para eu remover o virus remotamente.

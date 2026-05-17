@@ -1,0 +1,25 @@
+id: scam_gift_card_002
+type: scam
+language: en-US
+duration_target_seconds: 18
+primary_signal: unusual_payment_method
+all_signals:
+  - authority_claim
+  - urgency_pressure
+  - unusual_payment_method
+final_risk_level: danger
+risk_evolution:
+  - {t_start: 0, t_end: 7, expected_risk: suspicious}
+  - {t_start: 7, t_end: 18, expected_risk: danger}
+voices:
+  scammer: en_male_2
+  victim: en_female_1
+transcript: |
+  [scammer, official]
+  This is the utility disconnection office. Your power will be shut off today unless the overdue balance is cleared.
+
+  [victim, cautious]
+  Can I pay on the company website?
+
+  [scammer, urgent]
+  The website is down. Buy prepaid gift cards at the store and read the codes to me before the cutoff time.

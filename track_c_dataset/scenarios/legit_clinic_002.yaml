@@ -1,0 +1,21 @@
+id: legit_clinic_002
+type: legitimate
+language: en-US
+duration_target_seconds: 14
+primary_signal: null
+all_signals: []
+final_risk_level: safe
+risk_evolution:
+  - {t_start: 0, t_end: 14, expected_risk: safe}
+voices:
+  caller: en_female_3
+  user: en_male_1
+transcript: |
+  [caller, polite]
+  Hello, this is Lakeside Clinic confirming your lab appointment on Monday morning.
+
+  [user]
+  Do you need any payment over the phone?
+
+  [caller]
+  No, we do not take payment information by phone. Please bring your ID and insurance card to the front desk.

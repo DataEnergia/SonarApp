@@ -1,0 +1,227 @@
+[
+  {
+    "file": "legit_bank_001.wav",
+    "type": "legitimate",
+    "expected": "suspicious",
+    "language": "pt-BR",
+    "predicted": "danger",
+    "correct": false,
+    "elapsed_s": 36.2
+  },
+  {
+    "file": "legit_bank_app_002.wav",
+    "type": "legitimate",
+    "expected": "suspicious",
+    "language": "pt-BR",
+    "predicted": "danger",
+    "correct": false,
+    "elapsed_s": 38.0
+  },
+  {
+    "file": "legit_bank_card_003.wav",
+    "type": "legitimate",
+    "expected": "suspicious",
+    "language": "pt-BR",
+    "predicted": "danger",
+    "correct": false,
+    "elapsed_s": 37.7
+  },
+  {
+    "file": "legit_clinic_001.wav",
+    "type": "legitimate",
+    "expected": "safe",
+    "language": "en-US",
+    "predicted": "danger",
+    "correct": false,
+    "elapsed_s": 34.7
+  },
+  {
+    "file": "legit_clinic_002.wav",
+    "type": "legitimate",
+    "expected": "safe",
+    "language": "en-US",
+    "predicted": "danger",
+    "correct": false,
+    "elapsed_s": 34.8
+  },
+  {
+    "file": "legit_clinic_exam_003.wav",
+    "type": "legitimate",
+    "expected": "safe",
+    "language": "pt-BR",
+    "predicted": "safe",
+    "correct": true,
+    "elapsed_s": 15.1
+  },
+  {
+    "file": "legit_delivery_001.wav",
+    "type": "legitimate",
+    "expected": "safe",
+    "language": "en-US",
+    "predicted": "danger",
+    "correct": false,
+    "elapsed_s": 36.3
+  },
+  {
+    "file": "legit_family_001.wav",
+    "type": "legitimate",
+    "expected": "safe",
+    "language": "pt-BR",
+    "predicted": "safe",
+    "correct": true,
+    "elapsed_s": 27.3
+  },
+  {
+    "file": "legit_family_help_002.wav",
+    "type": "legitimate",
+    "expected": "safe",
+    "language": "pt-BR",
+    "predicted": "safe",
+    "correct": true,
+    "elapsed_s": 32.1
+  },
+  {
+    "file": "legit_family_money_001.wav",
+    "type": "legitimate",
+    "expected": "safe",
+    "language": "pt-BR",
+    "predicted": "safe",
+    "correct": true,
+    "elapsed_s": 44.5
+  },
+  {
+    "file": "legit_government_info_001.wav",
+    "type": "legitimate",
+    "expected": "suspicious",
+    "language": "en-US",
+    "predicted": "safe",
+    "correct": true,
+    "elapsed_s": 31.5
+  },
+  {
+    "file": "legit_telemarketing_001.wav",
+    "type": "legitimate",
+    "expected": "safe",
+    "language": "pt-BR",
+    "predicted": "safe",
+    "correct": true,
+    "elapsed_s": 31.9
+  },
+  {
+    "file": "legit_utility_001.wav",
+    "type": "legitimate",
+    "expected": "safe",
+    "language": "pt-BR",
+    "predicted": "danger",
+    "correct": false,
+    "elapsed_s": 36.0
+  },
+  {
+    "file": "scam_authority_001.wav",
+    "type": "scam",
+    "expected": "danger",
+    "language": "pt-BR",
+    "predicted": "danger",
+    "correct": true,
+    "elapsed_s": 24.4
+  },
+  {
+    "file": "scam_bank_pix_002.wav",
+    "type": "scam",
+    "expected": "danger",
+    "language": "pt-BR",
+    "predicted": "suspicious",
+    "correct": true,
+    "elapsed_s": 34.9
+  },
+  {
+    "file": "scam_family_001.wav",
+    "type": "scam",
+    "expected": "danger",
+    "language": "pt-BR",
+    "predicted": "danger",
+    "correct": true,
+    "elapsed_s": 37.7
+  },
+  {
+    "file": "scam_financial_001.wav",
+    "type": "scam",
+    "expected": "danger",
+    "language": "pt-BR",
+    "predicted": "suspicious",
+    "correct": true,
+    "elapsed_s": 34.9
+  },
+  {
+    "file": "scam_gift_card_002.wav",
+    "type": "scam",
+    "expected": "danger",
+    "language": "en-US",
+    "predicted": "danger",
+    "correct": true,
+    "elapsed_s": 34.6
+  },
+  {
+    "file": "scam_isolation_001.wav",
+    "type": "scam",
+    "expected": "danger",
+    "language": "pt-BR",
+    "predicted": "danger",
+    "correct": true,
+    "elapsed_s": 33.1
+  },
+  {
+    "file": "scam_otp_002.wav",
+    "type": "scam",
+    "expected": "danger",
+    "language": "en-US",
+    "predicted": "danger",
+    "correct": true,
+    "elapsed_s": 36.0
+  },
+  {
+    "file": "scam_personal_data_002.wav",
+    "type": "scam",
+    "expected": "danger",
+    "language": "pt-BR",
+    "predicted": "danger",
+    "correct": true,
+    "elapsed_s": 37.9
+  },
+  {
+    "file": "scam_remote_access_001.wav",
+    "type": "scam",
+    "expected": "danger",
+    "language": "en-US",
+    "predicted": "danger",
+    "correct": true,
+    "elapsed_s": 25.3
+  },
+  {
+    "file": "scam_remote_access_002.wav",
+    "type": "scam",
+    "expected": "danger",
+    "language": "pt-BR",
+    "predicted": "danger",
+    "correct": true,
+    "elapsed_s": 23.1
+  },
+  {
+    "file": "scam_secret_bank_002.wav",
+    "type": "scam",
+    "expected": "danger",
+    "language": "pt-BR",
+    "predicted": "danger",
+    "correct": true,
+    "elapsed_s": 17.4
+  },
+  {
+    "file": "scam_unusual_payment_001.wav",
+    "type": "scam",
+    "expected": "danger",
+    "language": "en-US",
+    "predicted": "danger",
+    "correct": true,
+    "elapsed_s": 38.7
+  }
+]

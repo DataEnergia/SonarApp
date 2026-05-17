@@ -1,0 +1,25 @@
+id: scam_financial_001
+type: scam
+language: pt-BR
+duration_target_seconds: 18
+primary_signal: financial_request
+all_signals:
+  - authority_claim
+  - urgency_pressure
+  - financial_request
+final_risk_level: danger
+risk_evolution:
+  - {t_start: 0, t_end: 6, expected_risk: suspicious}
+  - {t_start: 6, t_end: 18, expected_risk: danger}
+voices:
+  scammer: pt_male_2
+  victim: pt_female_1
+transcript: |
+  [scammer, professional]
+  Dona Helena, aqui e da central de seguranca do cartao. Existe uma cobranca pendente que precisa ser regularizada hoje para evitar bloqueio.
+
+  [victim, unsure]
+  Eu nao lembro dessa cobranca.
+
+  [scammer, urgent]
+  Para cancelar a taxa, faca um Pix de verificacao para esta chave. O valor volta automaticamente depois que o sistema confirmar.

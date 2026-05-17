@@ -1,0 +1,26 @@
+[project]
+name = "senti-track-a-desktop"
+version = "0.1.0"
+description = "Track A desktop reference pipeline for Senti."
+requires-python = ">=3.11"
+dependencies = [
+    "faster-whisper>=1.0.0",
+    "pydantic>=2.0",
+    "pyyaml>=6.0",
+    "requests>=2.31.0",
+    "structlog>=24.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-cov>=5.0.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = [".", ".."]
+
+[tool.coverage.run]
+source = ["."]
+omit = ["tests/*"]

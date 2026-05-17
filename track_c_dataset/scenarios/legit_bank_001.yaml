@@ -1,0 +1,22 @@
+id: legit_bank_001
+type: legitimate
+language: pt-BR
+duration_target_seconds: 12
+primary_signal: authority_claim
+all_signals:
+  - authority_claim
+final_risk_level: suspicious
+risk_evolution:
+  - {t_start: 0, t_end: 12, expected_risk: suspicious}
+voices:
+  caller: pt_male_2
+  user: pt_female_2
+transcript: |
+  [caller, professional]
+  Boa tarde, aqui e do banco. Estamos ligando para avisar que houve uma tentativa de compra recusada no seu cartao.
+
+  [user, cautious]
+  O que eu preciso fazer?
+
+  [caller]
+  Por seguranca, nao informe senha nem codigo nesta chamada. Abra o aplicativo oficial ou ligue para o numero do verso do cartao.

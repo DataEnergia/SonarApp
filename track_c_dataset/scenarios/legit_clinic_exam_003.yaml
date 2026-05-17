@@ -1,0 +1,21 @@
+id: legit_clinic_exam_003
+type: legitimate
+language: pt-BR
+duration_target_seconds: 14
+primary_signal: null
+all_signals: []
+final_risk_level: safe
+risk_evolution:
+  - {t_start: 0, t_end: 14, expected_risk: safe}
+voices:
+  caller: pt_female_3
+  user: pt_female_1
+transcript: |
+  [caller, polite]
+  Boa tarde, dona Maria. Sua consulta de retorno foi confirmada para quinta-feira as nove da manha.
+
+  [user]
+  Preciso levar algum documento?
+
+  [caller]
+  Leve apenas o pedido impresso e um documento com foto. Se precisar remarcar, use o telefone da clinica.

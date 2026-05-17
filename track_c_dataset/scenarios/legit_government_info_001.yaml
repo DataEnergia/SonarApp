@@ -1,0 +1,22 @@
+id: legit_government_info_001
+type: legitimate
+language: en-US
+duration_target_seconds: 15
+primary_signal: authority_claim
+all_signals:
+  - authority_claim
+final_risk_level: suspicious
+risk_evolution:
+  - {t_start: 0, t_end: 15, expected_risk: suspicious}
+voices:
+  caller: en_female_2
+  user: en_male_1
+transcript: |
+  [caller, official]
+  This is the city health information line calling about the free vaccination clinic next week.
+
+  [user]
+  Do you need my insurance number?
+
+  [caller]
+  No. We only provide the schedule. Please verify the address on the city website before you go.

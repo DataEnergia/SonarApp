@@ -1,0 +1,25 @@
+id: scam_personal_data_002
+type: scam
+language: pt-BR
+duration_target_seconds: 16
+primary_signal: personal_data_request
+all_signals:
+  - authority_claim
+  - personal_data_request
+  - urgency_pressure
+final_risk_level: danger
+risk_evolution:
+  - {t_start: 0, t_end: 5, expected_risk: suspicious}
+  - {t_start: 5, t_end: 16, expected_risk: danger}
+voices:
+  scammer: pt_male_3
+  victim: pt_female_2
+transcript: |
+  [scammer, calm]
+  Boa tarde, falo do atendimento do INSS. Ha uma revisao no seu beneficio e precisamos atualizar seus dados ainda hoje.
+
+  [victim]
+  Que dados o senhor precisa?
+
+  [scammer]
+  Diga seu CPF completo, data de nascimento e a senha temporaria que chegou por mensagem para liberar a consulta.

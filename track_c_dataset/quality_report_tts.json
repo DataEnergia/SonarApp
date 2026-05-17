@@ -1,0 +1,257 @@
+{
+  "dataset_dir": "audio_tts",
+  "file_count": 25,
+  "valid_count": 25,
+  "results": [
+    {
+      "audio_file": "legit_bank_001.wav",
+      "exists": true,
+      "valid": true,
+      "channels": 1,
+      "sample_width_bytes": 2,
+      "frame_rate": 16000,
+      "duration_seconds": 18.962,
+      "format_ok": true
+    },
+    {
+      "audio_file": "legit_bank_app_002.wav",
+      "exists": true,
+      "valid": true,
+      "channels": 1,
+      "sample_width_bytes": 2,
+      "frame_rate": 16000,
+      "duration_seconds": 16.523,
+      "format_ok": true
+    },
+    {
+      "audio_file": "legit_bank_card_003.wav",
+      "exists": true,
+      "valid": true,
+      "channels": 1,
+      "sample_width_bytes": 2,
+      "frame_rate": 16000,
+      "duration_seconds": 20.557,
+      "format_ok": true
+    },
+    {
+      "audio_file": "legit_clinic_001.wav",
+      "exists": true,
+      "valid": true,
+      "channels": 1,
+      "sample_width_bytes": 2,
+      "frame_rate": 16000,
+      "duration_seconds": 15.492,
+      "format_ok": true
+    },
+    {
+      "audio_file": "legit_clinic_002.wav",
+      "exists": true,
+      "valid": true,
+      "channels": 1,
+      "sample_width_bytes": 2,
+      "frame_rate": 16000,
+      "duration_seconds": 16.187,
+      "format_ok": true
+    },
+    {
+      "audio_file": "legit_clinic_exam_003.wav",
+      "exists": true,
+      "valid": true,
+      "channels": 1,
+      "sample_width_bytes": 2,
+      "frame_rate": 16000,
+      "duration_seconds": 17.918,
+      "format_ok": true
+    },
+    {
+      "audio_file": "legit_delivery_001.wav",
+      "exists": true,
+      "valid": true,
+      "channels": 1,
+      "sample_width_bytes": 2,
+      "frame_rate": 16000,
+      "duration_seconds": 17.147,
+      "format_ok": true
+    },
+    {
+      "audio_file": "legit_family_001.wav",
+      "exists": true,
+      "valid": true,
+      "channels": 1,
+      "sample_width_bytes": 2,
+      "frame_rate": 16000,
+      "duration_seconds": 16.434,
+      "format_ok": true
+    },
+    {
+      "audio_file": "legit_family_help_002.wav",
+      "exists": true,
+      "valid": true,
+      "channels": 1,
+      "sample_width_bytes": 2,
+      "frame_rate": 16000,
+      "duration_seconds": 15.329,
+      "format_ok": true
+    },
+    {
+      "audio_file": "legit_family_money_001.wav",
+      "exists": true,
+      "valid": true,
+      "channels": 1,
+      "sample_width_bytes": 2,
+      "frame_rate": 16000,
+      "duration_seconds": 20.238,
+      "format_ok": true
+    },
+    {
+      "audio_file": "legit_government_info_001.wav",
+      "exists": true,
+      "valid": true,
+      "channels": 1,
+      "sample_width_bytes": 2,
+      "frame_rate": 16000,
+      "duration_seconds": 15.802,
+      "format_ok": true
+    },
+    {
+      "audio_file": "legit_telemarketing_001.wav",
+      "exists": true,
+      "valid": true,
+      "channels": 1,
+      "sample_width_bytes": 2,
+      "frame_rate": 16000,
+      "duration_seconds": 16.409,
+      "format_ok": true
+    },
+    {
+      "audio_file": "legit_utility_001.wav",
+      "exists": true,
+      "valid": true,
+      "channels": 1,
+      "sample_width_bytes": 2,
+      "frame_rate": 16000,
+      "duration_seconds": 21.422,
+      "format_ok": true
+    },
+    {
+      "audio_file": "scam_authority_001.wav",
+      "exists": true,
+      "valid": true,
+      "channels": 1,
+      "sample_width_bytes": 2,
+      "frame_rate": 16000,
+      "duration_seconds": 19.931,
+      "format_ok": true
+    },
+    {
+      "audio_file": "scam_bank_pix_002.wav",
+      "exists": true,
+      "valid": true,
+      "channels": 1,
+      "sample_width_bytes": 2,
+      "frame_rate": 16000,
+      "duration_seconds": 17.268,
+      "format_ok": true
+    },
+    {
+      "audio_file": "scam_family_001.wav",
+      "exists": true,
+      "valid": true,
+      "channels": 1,
+      "sample_width_bytes": 2,
+      "frame_rate": 16000,
+      "duration_seconds": 17.573,
+      "format_ok": true
+    },
+    {
+      "audio_file": "scam_financial_001.wav",
+      "exists": true,
+      "valid": true,
+      "channels": 1,
+      "sample_width_bytes": 2,
+      "frame_rate": 16000,
+      "duration_seconds": 20.636,
+      "format_ok": true
+    },
+    {
+      "audio_file": "scam_gift_card_002.wav",
+      "exists": true,
+      "valid": true,
+      "channels": 1,
+      "sample_width_bytes": 2,
+      "frame_rate": 16000,
+      "duration_seconds": 17.556,
+      "format_ok": true
+    },
+    {
+      "audio_file": "scam_isolation_001.wav",
+      "exists": true,
+      "valid": true,
+      "channels": 1,
+      "sample_width_bytes": 2,
+      "frame_rate": 16000,
+      "duration_seconds": 19.867,
+      "format_ok": true
+    },
+    {
+      "audio_file": "scam_otp_002.wav",
+      "exists": true,
+      "valid": true,
+      "channels": 1,
+      "sample_width_bytes": 2,
+      "frame_rate": 16000,
+      "duration_seconds": 15.187,
+      "format_ok": true
+    },
+    {
+      "audio_file": "scam_personal_data_002.wav",
+      "exists": true,
+      "valid": true,
+      "channels": 1,
+      "sample_width_bytes": 2,
+      "frame_rate": 16000,
+      "duration_seconds": 18.608,
+      "format_ok": true
+    },
+    {
+      "audio_file": "scam_remote_access_001.wav",
+      "exists": true,
+      "valid": true,
+      "channels": 1,
+      "sample_width_bytes": 2,
+      "frame_rate": 16000,
+      "duration_seconds": 17.921,
+      "format_ok": true
+    },
+    {
+      "audio_file": "scam_remote_access_002.wav",
+      "exists": true,
+      "valid": true,
+      "channels": 1,
+      "sample_width_bytes": 2,
+      "frame_rate": 16000,
+      "duration_seconds": 16.264,
+      "format_ok": true
+    },
+    {
+      "audio_file": "scam_secret_bank_002.wav",
+      "exists": true,
+      "valid": true,
+      "channels": 1,
+      "sample_width_bytes": 2,
+      "frame_rate": 16000,
+      "duration_seconds": 17.143,
+      "format_ok": true
+    },
+    {
+      "audio_file": "scam_unusual_payment_001.wav",
+      "exists": true,
+      "valid": true,
+      "channels": 1,
+      "sample_width_bytes": 2,
+      "frame_rate": 16000,
+      "duration_seconds": 18.801,
+      "format_ok": true
+    }
+  ]
+}

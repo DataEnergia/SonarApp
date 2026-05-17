@@ -1,0 +1,21 @@
+id: legit_family_001
+type: legitimate
+language: pt-BR
+duration_target_seconds: 10
+primary_signal: null
+all_signals: []
+final_risk_level: safe
+risk_evolution:
+  - {t_start: 0, t_end: 10, expected_risk: safe}
+voices:
+  caller: pt_female_3
+  user: pt_female_1
+transcript: |
+  [caller, warm]
+  Oi mae, tudo bem? Passei para lembrar que amanha vou levar os remedios e o pao que a senhora pediu.
+
+  [user, relaxed]
+  Obrigada, minha filha. Se puder chegar depois do almoco fica melhor.
+
+  [caller]
+  Combinado. Te ligo antes de sair de casa.

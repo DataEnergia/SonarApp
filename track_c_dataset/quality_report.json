@@ -1,0 +1,17 @@
+{
+  "dataset_dir": "audio_tts",
+  "file_count": 1,
+  "valid_count": 1,
+  "results": [
+    {
+      "audio_file": "scam_authority_001.wav",
+      "exists": true,
+      "valid": true,
+      "channels": 1,
+      "sample_width_bytes": 2,
+      "frame_rate": 16000,
+      "duration_seconds": 19.931,
+      "format_ok": true
+    }
+  ]
+}

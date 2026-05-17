@@ -1,0 +1,21 @@
+id: legit_utility_001
+type: legitimate
+language: pt-BR
+duration_target_seconds: 14
+primary_signal: null
+all_signals: []
+final_risk_level: safe
+risk_evolution:
+  - {t_start: 0, t_end: 14, expected_risk: safe}
+voices:
+  caller: pt_female_3
+  user: pt_male_1
+transcript: |
+  [caller, polite]
+  Bom dia, aqui e da companhia de energia. A visita tecnica do seu bairro foi reagendada para sexta-feira pela manha.
+
+  [user]
+  Preciso pagar alguma coisa para o tecnico?
+
+  [caller]
+  Nao. O tecnico vai apenas verificar o medidor externo. Se tiver duvida, confirme pelo site ou pelo telefone da conta.

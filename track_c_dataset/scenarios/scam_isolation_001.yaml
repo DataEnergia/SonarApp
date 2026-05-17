@@ -1,0 +1,25 @@
+id: scam_isolation_001
+type: scam
+language: pt-BR
+duration_target_seconds: 16
+primary_signal: isolation_request
+all_signals:
+  - authority_claim
+  - isolation_request
+  - urgency_pressure
+final_risk_level: danger
+risk_evolution:
+  - {t_start: 0, t_end: 8, expected_risk: suspicious}
+  - {t_start: 8, t_end: 16, expected_risk: danger}
+voices:
+  scammer: pt_female_2
+  victim: pt_male_1
+transcript: |
+  [scammer, serious]
+  Senhor Paulo, sou da delegacia de crimes digitais. Seu CPF apareceu em uma investigacao e precisamos falar agora.
+
+  [victim, worried]
+  Posso chamar meu filho para me ajudar?
+
+  [scammer, firm]
+  Nao chame ninguem e nao desligue. Se outra pessoa ouvir, o procedimento pode ser cancelado e o senhor pode ser responsabilizado.
