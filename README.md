@@ -4,6 +4,9 @@
 
 On-device AI pipeline that detects phone scams in real time using Gemma 4. Fully local. No audio or transcription leaves the device. Multilingual: Portuguese (pt-BR), English (en-US), Latin American Spanish (es-419).
 
+<img width="1459" height="1426" alt="Sonar (1)" src="https://github.com/user-attachments/assets/2d9973e0-538a-482d-8161-2240f31fa4a1" />
+
+
 ---
 
 ## Evaluation Results
