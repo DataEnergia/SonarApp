@@ -1,7 +1,7 @@
 # Copyright 2026 Carlos Alejandro Urzagasti
 # Licensed under the Apache License, Version 2.0
 
-"""Operational preflight checks for running Senti on a real local audio file."""
+"""Operational preflight checks for running Sonar on a real local audio file."""
 
 from __future__ import annotations
 
@@ -53,7 +53,7 @@ def run_preflight(
 
 
 def main(argv: list[str] | None = None) -> int:
-    parser = argparse.ArgumentParser(description="Check if Senti Track A can run on a real local audio file")
+    parser = argparse.ArgumentParser(description="Check if Sonar Track A can run on a real local audio file")
     parser.add_argument("--audio", required=True, type=Path)
     parser.add_argument("--language", default="pt-BR", choices=[item.value for item in Language])
     parser.add_argument("--model", default="google/gemma-4-e2b")

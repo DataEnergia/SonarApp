@@ -1,7 +1,7 @@
 [project]
 name = "senti-track-a-desktop"
 version = "0.1.0"
-description = "Track A desktop reference pipeline for Senti."
+description = "Track A desktop reference pipeline for Sonar."
 requires-python = ">=3.11"
 dependencies = [
     "faster-whisper>=1.0.0",

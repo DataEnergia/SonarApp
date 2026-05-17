@@ -1,15 +1,15 @@
-# ETHICS — Senti Ethics Checklist
+# ETHICS — Sonar Ethics Checklist
 
-> This document defines the ethical commitments and known limitations of Senti.
+> This document defines the ethical commitments and known limitations of Sonar.
 > Required reading for all contributors, agents, and reviewers.
 
 ---
 
 ## 1. Core ethical commitments
 
-### 1.1 Senti is not stalkerware
+### 1.1 Sonar is not stalkerware
 
-Senti is **explicit**, **visible**, and **user-controlled**:
+Sonar is **explicit**, **visible**, and **user-controlled**:
 
 - The app has its own icon and name. It is **not disguised** as a calculator, notepad, or any other app.
 - The app shows up in the standard Android app drawer.
@@ -17,13 +17,13 @@ Senti is **explicit**, **visible**, and **user-controlled**:
 - The user can pause or stop the service at any time with one tap.
 - There is no "hidden mode" or "stealth installation".
 
-Compare to anti-patterns Senti explicitly avoids:
+Compare to anti-patterns Sonar explicitly avoids:
 - App disguised as another type of app (e.g., calculator)
 - Continuous background audio capture without user activation
 - Hidden processes
 - Reverse-trigger UX (e.g., "say a secret phrase to activate")
 
-These patterns are characteristic of stalkerware and are abused by domestic abusers against the very populations they claim to protect. Senti does not adopt any of them.
+These patterns are characteristic of stalkerware and are abused by domestic abusers against the very populations they claim to protect. Sonar does not adopt any of them.
 
 ### 1.2 Audio sovereignty
 
@@ -35,7 +35,7 @@ These patterns are characteristic of stalkerware and are abused by domestic abus
 
 ### 1.3 Decision sovereignty
 
-- Senti **suggests, never decides**. The app never hangs up the call. The app never blocks a contact without explicit user action.
+- Sonar **suggests, never decides**. The app never hangs up the call. The app never blocks a contact without explicit user action.
 - Every alert uses **probabilistic language**: "possível golpe", "indícios sugerem", "recomendamos". Never "isto é golpe" or "this is fraud".
 - Every alert shows **the signals that triggered it**, in plain language. The user sees: "Detectamos: alegação de ser do banco + pressão temporal + pedido de dados pessoais." This is the opposite of a black box.
 - Every alert includes a **suggested action that is reversible**: "Desligue e ligue de volta no número oficial." Never "Não pague essa pessoa" (which the app cannot enforce and which assumes guilt).
@@ -61,7 +61,7 @@ The product never says "this IS a scam." It says "indicators suggest this MAY be
 
 ## 2. Out-of-scope user groups (declared)
 
-Senti is **not designed for** and **MUST NOT be deployed to**:
+Sonar is **not designed for** and **MUST NOT be deployed to**:
 
 ### 2.1 Victims of domestic violence
 
@@ -79,11 +79,11 @@ The product targets adults age 60+ who consent to its use. Privacy-preserving de
 
 ### 2.3 Professionals under confidentiality obligations
 
-Lawyers, therapists, doctors, journalists, and other professionals with legal confidentiality duties cannot use Senti during professional calls. The product is for personal calls in the user's home.
+Lawyers, therapists, doctors, journalists, and other professionals with legal confidentiality duties cannot use Sonar during professional calls. The product is for personal calls in the user's home.
 
 ### 2.4 Jurisdictions with restrictive recording laws
 
-Some jurisdictions (e.g., some US states, some European countries) require two-party consent for any audio recording, even of one's own conversations. Senti's design (speakerphone + microphone, not call recording) probably qualifies as "ambient" rather than "recording", but users in restrictive jurisdictions should consult local law.
+Some jurisdictions (e.g., some US states, some European countries) require two-party consent for any audio recording, even of one's own conversations. Sonar's design (speakerphone + microphone, not call recording) probably qualifies as "ambient" rather than "recording", but users in restrictive jurisdictions should consult local law.
 
 ---
 
@@ -91,13 +91,13 @@ Some jurisdictions (e.g., some US states, some European countries) require two-p
 
 ### 3.1 The caregiver-abuser case
 
-**Description.** Caregivers (children, grandchildren, neighbors, hired help) are statistically the **most common source** of financial abuse against elderly people. A caregiver who is the abuser could install Senti, configure themselves as the trusted contact, and use the app to monitor the elder's communications with other family members — or to detect when the elder is being warned by a third party.
+**Description.** Caregivers (children, grandchildren, neighbors, hired help) are statistically the **most common source** of financial abuse against elderly people. A caregiver who is the abuser could install Sonar, configure themselves as the trusted contact, and use the app to monitor the elder's communications with other family members — or to detect when the elder is being warned by a third party.
 
 **Cannot be fully eliminated.** Any system with a "trusted contact" feature has this attack surface.
 
 **Mitigations:**
 - The user (elder) controls the trusted contact list directly. The list is editable from a settings screen that is accessible without entering a password.
-- Senti never sends call transcripts to the trusted contact — only metadata alerts ("call classified as suspicious").
+- Sonar never sends call transcripts to the trusted contact — only metadata alerts ("call classified as suspicious").
 - The audit log is local and accessible to the user, and exportable for review by third parties (Defensoria do Idoso, MP).
 - The settings screen prominently displays the Disque 100 (Brazil) / equivalent elder-protection hotline number, always one tap away.
 - The README and in-app onboarding declare this risk explicitly.
@@ -114,7 +114,7 @@ Some jurisdictions (e.g., some US states, some European countries) require two-p
 
 ### 3.3 False negatives
 
-**Description.** Adversaries adapt. A scammer who knows Senti exists can adjust wording to evade detection.
+**Description.** Adversaries adapt. A scammer who knows Sonar exists can adjust wording to evade detection.
 
 **Mitigations:**
 - The classifier operates on semantic patterns (intent), not keywords.
@@ -124,7 +124,7 @@ Some jurisdictions (e.g., some US states, some European countries) require two-p
 
 ### 3.4 Hardware exclusion
 
-**Description.** Senti requires 4GB+ RAM. Many elderly Brazilians, especially in low-income areas, use phones with 2-3GB RAM (Moto E line, Samsung A0x line) where the product cannot run.
+**Description.** Sonar requires 4GB+ RAM. Many elderly Brazilians, especially in low-income areas, use phones with 2-3GB RAM (Moto E line, Samsung A0x line) where the product cannot run.
 
 **This is a real inequity.** The most vulnerable users are partially excluded.
 
@@ -135,7 +135,7 @@ Some jurisdictions (e.g., some US states, some European countries) require two-p
 
 ### 3.5 Dependency creation
 
-**Description.** Elderly users may become dependent on Senti and lose the ability to detect scams without it. If the app fails (battery, bug, model error), they may be more vulnerable than before.
+**Description.** Elderly users may become dependent on Sonar and lose the ability to detect scams without it. If the app fails (battery, bug, model error), they may be more vulnerable than before.
 
 **Mitigations:**
 - Educational mode after each classified call: "Estes foram os sinais detectados. Por que cada um é suspeito?" — explicit knowledge transfer.
@@ -188,8 +188,8 @@ Some jurisdictions (e.g., some US states, some European countries) require two-p
 
 | Component | License | Compatible |
 |---|---|---|
-| Senti code | Apache 2.0 | Yes |
-| Senti docs / dataset | CC-BY 4.0 | Yes |
+| Sonar code | Apache 2.0 | Yes |
+| Sonar docs / dataset | CC-BY 4.0 | Yes |
 | Gemma 4 weights | Gemma Terms of Use | Yes (commercial use allowed) |
 | MediaPipe | Apache 2.0 | Yes |
 | whisper.cpp | MIT | Yes |

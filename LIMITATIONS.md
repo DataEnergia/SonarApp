@@ -1,10 +1,10 @@
 # Limitations
 
-This document records the current limitations of the Senti prototype so the demo and submission remain accurate.
+This document records the current limitations of the Sonar prototype so the demo and submission remain accurate.
 
 ## Current Scope
 
-Senti is currently a local desktop prototype for scam-call risk detection. The demonstrated path is:
+Sonar is currently a local desktop prototype for scam-call risk detection. The demonstrated path is:
 
 ```text
 local audio -> faster-whisper -> Ollama gemma4:e2b -> deterministic Decision Engine -> CallReport -> local report/UI
@@ -38,7 +38,7 @@ The desktop path is useful for demo, auditability, prompt iteration, and local e
 
 ## Product Limitations
 
-1. Senti is a safety assistant, not a definitive fraud detector.
+1. Sonar is a safety assistant, not a definitive fraud detector.
 2. Results should be treated as risk warnings, not proof of fraud.
 3. The prototype should not collect or process real sensitive personal data during demos.
 4. The local UI supports upload of WAV/MP3 files, not direct browser microphone recording yet.

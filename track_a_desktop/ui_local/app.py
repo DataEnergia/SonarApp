@@ -316,7 +316,7 @@ def _process_call_chunk(session: dict[str, Any], audio_bytes: bytes, suffix: str
     return {"queued": True}  # signals successful transcription, not silence
 
 
-class SentiUiHandler(BaseHTTPRequestHandler):
+class SonarUiHandler(BaseHTTPRequestHandler):
     """HTTP handler for the local-only desktop UI."""
 
     server_version = "SonarLocalUI/1.0"
@@ -945,7 +945,7 @@ def main() -> int:
     parser.add_argument("--host", default="127.0.0.1")
     parser.add_argument("--port", default=8765, type=int)
     args = parser.parse_args()
-    server = ThreadingHTTPServer((args.host, args.port), SentiUiHandler)
+    server = ThreadingHTTPServer((args.host, args.port), SonarUiHandler)
     print(f"Sonar UI          →  http://{args.host}:{args.port}")
     print(f"Pipeline Monitor  →  http://{args.host}:{args.port}/monitor")
     print(f"Demo Contato      →  http://{args.host}:{args.port}/contato")

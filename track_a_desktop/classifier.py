@@ -211,7 +211,7 @@ class GemmaClassifier:
 
 
 def _json_fallback_prompt() -> str:
-    return """You are Senti, a local scam-call classifier.
+    return """You are Sonar, a local scam-call classifier.
 
 Return only one valid JSON object. Do not use markdown. Do not call tools.
 

@@ -1,7 +1,7 @@
 # Copyright 2026 Carlos Alejandro Urzagasti
 # Licensed under the Apache License, Version 2.0
 
-"""One-command desktop demo runner for the Senti prototype."""
+"""One-command desktop demo runner for the Sonar prototype."""
 
 from __future__ import annotations
 
@@ -95,7 +95,7 @@ def run_demo(
 
 
 def main(argv: list[str] | None = None) -> int:
-    parser = argparse.ArgumentParser(description="Run the full Senti desktop demo pipeline")
+    parser = argparse.ArgumentParser(description="Run the full Sonar desktop demo pipeline")
     parser.add_argument("--audio", required=True, type=Path)
     parser.add_argument("--language", default="pt-BR", choices=[item.value for item in Language])
     parser.add_argument("--output-dir", default=Path("outputs/demo"), type=Path)

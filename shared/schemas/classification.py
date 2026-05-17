@@ -2,7 +2,7 @@
 # Licensed under the Apache License, Version 2.0
 
 """
-Canonical schema for the Senti scam-call classifier.
+Canonical schema for the Sonar scam-call classifier.
 
 This module is the source of truth for data structures used across
 Track A (desktop Python pipeline), Track D (evaluation), and the

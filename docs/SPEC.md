@@ -1,4 +1,4 @@
-# SPEC — Senti Technical Specification
+# SPEC — Sonar Technical Specification
 
 > Local on-device AI scam-call detection for elderly users.
 > Submission to The Gemma 4 Good Hackathon, May 2026.
@@ -18,7 +18,7 @@ The state of the art in industry (Truecaller, Hiya) is cloud-based, raising priv
 
 ## 2. Solution
 
-Senti is an Android app that:
+Sonar is an Android app that:
 
 - Listens (via the device microphone, with the call on **speakerphone** — never via the restricted `VOICE_CALL` audio source) to the conversation while it is happening.
 - Transcribes the audio locally using `whisper.cpp tiny` (or `small` on capable devices).
@@ -27,7 +27,7 @@ Senti is an Android app that:
 - Surfaces risk to the user through a high-contrast, large-font UI with visual color states and TTS audio alerts.
 - Optionally notifies a pre-configured trusted contact (family member) via FCM — metadata only, never audio.
 
-The user activates Senti by pressing one large green button when a suspicious call begins.
+The user activates Sonar by pressing one large green button when a suspicious call begins.
 
 ## 3. Why on-device, why Gemma 4
 

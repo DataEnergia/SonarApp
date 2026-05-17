@@ -1,7 +1,7 @@
 # Copyright 2026 Carlos Alejandro Urzagasti
 # Licensed under the Apache License, Version 2.0
 
-"""Render a Senti CallReport JSON into a human-readable Markdown report."""
+"""Render a Sonar CallReport JSON into a human-readable Markdown report."""
 
 from __future__ import annotations
 
@@ -30,7 +30,7 @@ def render_call_report(report_path: Path, output_path: Path | None = None) -> st
 
 
 def main(argv: list[str] | None = None) -> int:
-    parser = argparse.ArgumentParser(description="Render a Senti CallReport JSON as Markdown")
+    parser = argparse.ArgumentParser(description="Render a Sonar CallReport JSON as Markdown")
     parser.add_argument("--report", required=True, type=Path, help="Input CallReport JSON path")
     parser.add_argument("--output", default=None, type=Path, help="Optional Markdown output path")
     args = parser.parse_args(argv)
@@ -44,7 +44,7 @@ def main(argv: list[str] | None = None) -> int:
 def _render_markdown(report: CallReport, report_path: Path) -> str:
     final = report.final_state
     lines = [
-        "# Senti Call Report",
+        "# Sonar Call Report",
         "",
         "## Decision",
         "",

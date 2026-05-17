@@ -1,6 +1,6 @@
 # EVAL — Evaluation Methodology
 
-> How we measure whether Senti works.
+> How we measure whether Sonar works.
 
 ---
 
@@ -162,4 +162,4 @@ If any slice exceeds tolerance, declare in write-up and discuss mitigation.
 2. 75 audios is small; results are point estimates with wide confidence intervals.
 3. Holdout is sampled from same distribution as training; out-of-distribution scams (new patterns, regional dialects) are not tested.
 4. Real elderly users are not in the loop for this MVP. Future work requires co-design with this population.
-5. Adversarial robustness (a scammer who knows Senti exists) is not formally tested.
+5. Adversarial robustness (a scammer who knows Sonar exists) is not formally tested.

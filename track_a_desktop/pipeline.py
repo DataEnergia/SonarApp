@@ -108,7 +108,7 @@ def run_pipeline(
 
 
 def main(argv: list[str] | None = None) -> int:
-    parser = argparse.ArgumentParser(description="Run the Senti Track A desktop pipeline.")
+    parser = argparse.ArgumentParser(description="Run the Sonar Track A desktop pipeline.")
     parser.add_argument("--audio", required=True, type=Path, help="Input WAV/MP3 path")
     parser.add_argument("--output", required=True, type=Path, help="Output CallReport JSON path")
     parser.add_argument("--language", default="pt-BR", choices=[item.value for item in Language])
