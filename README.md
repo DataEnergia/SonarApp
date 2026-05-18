@@ -1,4 +1,4 @@
-# Sonar — Real-Time Scam Call Detection
+# Sonar - Real-Time Scam Call Detection
 
 **Submission for The Gemma 4 Good Hackathon (Kaggle × Google DeepMind, May 2026)**
 
